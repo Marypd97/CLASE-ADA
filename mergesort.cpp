@@ -7,8 +7,8 @@ void Merge(int *A,int ini,int med, int fin)
   int n1,n2;
   n1=med-ini+1;
   n2=fin-med;
-  int L[n1];
-  int R[n2];
+  int L[n1+1];
+  int R[n2+1];
   int i,j;
 
   for(i=0;i<n1;i++)
